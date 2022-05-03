@@ -1,0 +1,22 @@
+{
+  "name": "@veena/mathwizard",
+  "version": "1.0.0",
+  "description": "Basic operations - Math Library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VeenaHarsha/MathLibrary.git"
+  },
+  "keywords": [
+    "sum|diff|prod|modulus|divide"
+  ],
+  "author": "VeenaY",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VeenaHarsha/MathLibrary/issues"
+  },
+  "homepage": "https://github.com/VeenaHarsha/MathLibrary#readme"
+}
