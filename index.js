@@ -4,19 +4,19 @@ function mathLibrary(options) {
   console.log(type, num1, num2);
   switch (type) {
     case "sum":
-      div.textContent = num1 + num2;
+      div.textContent = `Result is : ${num1 + num2}`;
       break;
     case "diff":
-      div.textContent = num1 - num2;
+      div.textContent = `Result is : ${num1 - num2}`;
       break;
     case "prod":
-      div.textContent = num1 * num2;
+      div.textContent = `Result is : ${num1 * num2}`;
       break;
     case "divide":
-      div.textContent = num1 / num2;
+      div.textContent = `Result is : ${num1 / num2}`;
       break;
     case "modulus":
-      div.textContent = num1 % num2;
+      div.textContent = `Result is : ${num1 % num2}`;
       break;
     default:
       div.textContent = "Please provide correct details!";
