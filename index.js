@@ -4,17 +4,22 @@ function mathLibrary(options) {
 
   switch (type) {
     case "sum":
-      result.innerHTML = Number(num1) + Number(num2);
+      console.log(num1 + num2);
+      return num1 + num2;
     case "diff":
-      result.innerHTML = Number(num1) - Number(num2);
+      console.log(num1 - num2);
+      return num1 - num2;
     case "prod":
-      result.innerHTML = Number(num1) * Number(num2);
+      console.log(num1 * num2);
+      return num1 * num2;
     case "divide":
-      result.innerHTML = Number(num1) / Number(num2);
+      console.log(num1 / num2);
+      return num1 / num2;
     case "modulus":
-      result.innerHTML = Number(num1) % Number(num2);
+      console.log(num1 % num2);
+      return num1 % num2;
     default:
-      result.innerHTML = "Please provide correct details!";
+      return "Please provide correct details!";
   }
 }
 module.exports.mathwizard = mathLibrary;
