@@ -4,7 +4,7 @@ Math Wizard - Basic Operations
 
 # Installation
 
-`npm i mathwizard --save`
+`npm install @veena.goud/mathwizard --save`
 Then
 
 ```import {mathwizard} from 'mathwizard;

@@ -1,7 +1,7 @@
 {
-  "name": "@veena/mathwizardy",
+  "name": "@veena.goud/mathwizard",
   "version": "1.0.0",
-  "description": "Basic operations - Math Library",
+  "description": "'Basic math Ops'",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,9 +11,9 @@
     "url": "git+https://github.com/VeenaHarsha/MathLibrary.git"
   },
   "keywords": [
-    "sum|diff|prod|modulus|divide"
+    "sum|diff|prod|div|mod"
   ],
-  "author": "VeenaY",
+  "author": "Veena.Goud",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/VeenaHarsha/MathLibrary/issues"
