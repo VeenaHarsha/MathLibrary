@@ -1,25 +1,26 @@
 function mathLibrary(options) {
   let { type, num1, num2 } = options;
   const div = document.createElement("div");
-
+  console.log(type, num1, num2);
   switch (type) {
     case "sum":
-      console.log(num1 + num2);
       div.textContent = num1 + num2;
+      break;
     case "diff":
-      console.log(num1 - num2);
       div.textContent = num1 - num2;
+      break;
     case "prod":
-      console.log(num1 * num2);
       div.textContent = num1 * num2;
+      break;
     case "divide":
-      console.log(num1 / num2);
       div.textContent = num1 / num2;
+      break;
     case "modulus":
-      console.log(num1 % num2);
       div.textContent = num1 % num2;
+      break;
     default:
       div.textContent = "Please provide correct details!";
+      break;
   }
   document.body.appendChild(div);
 }
